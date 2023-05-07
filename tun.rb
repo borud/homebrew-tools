@@ -1,4 +1,4 @@
-class Span <  Formula
+class Tun <  Formula
 	desc "multi hop reverse proxy"
 	homepage "https://github.com/borud/tun"
 	version "0.1.1"
