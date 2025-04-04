@@ -2,17 +2,17 @@
 class Tun <  Formula
 	desc "multi hop reverse proxy"
 	homepage "https://github.com/borud/tun"
-	version "0.1.3"
+	version "0.1.7"
 
 	on_macos do
 		if Hardware::CPU.intel?
-			url "https://github.com/borud/tun/releases/download/v0.1.3/tun.amd64-macos.zip"
-			sha256 "ebbdaa4e84b5a4933f1983e0f6e6f5b7cb34eaa9cc8749198b65f1c9f98c478a"
+			url "https://github.com/borud/tun/releases/download/v0.1.7/tun.amd64-macos.zip"
+			sha256 "359051d78224402906900ce06317da0727da4d2963d8bca0fc4241fa40c7a063"
 		end
 
 		if Hardware::CPU.arm?
-			url "https://github.com/borud/tun/releases/download/v0.1.3/tun.arm64-macos.zip"
-			sha256 "18c0635461b55efc3c6b53f009d6f16dbb8755cf8bf440daa21ff86fd403afd2"
+			url "https://github.com/borud/tun/releases/download/v0.1.7/tun.arm64-macos.zip"
+			sha256 "f88e02858aecd62e72a650e19fc2833bdda500cf65a071f7c78f101c614c01b1"
 		end
 	end
 
